@@ -27096,7 +27096,7 @@ declare namespace dojo {
          * @param topic The name of the topic to publish to
          * @param event An event to distribute to the topic listeners
          */
-        publish(topic: String, event: Object): any;
+        publish(topic: String, ...event: any[]): any;
         /**
          * Subscribes to a topic on the pub/sub hub
          *
