@@ -19031,6 +19031,7 @@ declare namespace dojo {
      *
      */
     interface dom_construct {
+        create(tag: String): any;
         /**
          * Create an element, allowing for optional attribute decoration
          * and placement.
